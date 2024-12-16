@@ -83,6 +83,4 @@ JavaFX_Project/                <-- Root Project Folder
 
 
     ```
-# OUTPUT
-![image](https://github.com/user-attachments/assets/363aedc0-426e-4a62-be0e-12b6e0d0862d)
 
