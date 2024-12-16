@@ -59,3 +59,6 @@ A JavaFX-based desktop application for managing contacts, integrated with a MySQ
    public static Connection getConnection() throws SQLException {
        return DriverManager.getConnection("jdbc:mysql://localhost:3306/contact_management", "root", "your-password");
    }
+# OUTPUT
+![image](https://github.com/user-attachments/assets/363aedc0-426e-4a62-be0e-12b6e0d0862d)
+
