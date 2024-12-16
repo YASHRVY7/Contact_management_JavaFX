@@ -59,28 +59,7 @@ A JavaFX-based desktop application for managing contacts, integrated with a MySQ
    public static Connection getConnection() throws SQLException {
        return DriverManager.getConnection("jdbc:mysql://localhost:3306/contact_management", "root", "your-password");
    }
-6.**Folder Architecture**
-    ```
-## Project Structure
+## Output
+![image](https://github.com/user-attachments/assets/e78558db-e047-4d05-9e5e-575e63e510e4)
 
-Here is the structure of the project:
-
-```plaintext
-JavaFX_Project/                <-- Root Project Folder
-│
-├── src/                       <-- Source Code Folder
-│   └── application/           <-- Package Containing the JavaFX Application Code
-│       ├── Main.java          <-- Main Class (Entry Point for the Application)
-│       ├── UserModel.java     <-- Model Class (Represents Data/Contact Object)
-│       ├── UserFX.java        <-- Controller Class (Handles UI Events/Logic)
-│       └── UserFX.fxml        <-- View File (FXML for UI Layout Designed in Scene Builder)
-│
-├── lib/                       <-- External Libraries (Dependencies)
-│   └── mysql-connector-java-x.x.x.jar <-- MySQL JDBC Driver
-│
-├── database/                  <-- SQL Scripts or Database Configuration
-│   └── contacts.sql           <-- SQL Script to Create and Initialize the Database Table
-
-
-    ```
 
