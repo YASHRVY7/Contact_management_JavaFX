@@ -61,6 +61,11 @@ A JavaFX-based desktop application for managing contacts, integrated with a MySQ
    }
 6.**Folder Architecture**
     ```
+## Project Structure
+
+Here is the structure of the project:
+
+```plaintext
 JavaFX_Project/                <-- Root Project Folder
 │
 ├── src/                       <-- Source Code Folder
@@ -69,13 +74,14 @@ JavaFX_Project/                <-- Root Project Folder
 │       ├── UserModel.java     <-- Model Class (Represents Data/Contact Object)
 │       ├── UserFX.java        <-- Controller Class (Handles UI Events/Logic)
 │       └── UserFX.fxml        <-- View File (FXML for UI Layout Designed in Scene Builder)
-│       └── application.css
+│
 ├── lib/                       <-- External Libraries (Dependencies)
 │   └── mysql-connector-java-x.x.x.jar <-- MySQL JDBC Driver
-│              <-- Images Used in the Project
 │
 ├── database/                  <-- SQL Scripts or Database Configuration
-│   └── contacts.sql
+│   └── contacts.sql           <-- SQL Script to Create and Initialize the Database Table
+
+
     ```
 # OUTPUT
 ![image](https://github.com/user-attachments/assets/363aedc0-426e-4a62-be0e-12b6e0d0862d)
